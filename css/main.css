@@ -14,6 +14,10 @@ black: #000;
 
 */
 
+body {
+	background-color: #ffffff;
+}
+
 @font-face {
 	font-family: "champagne";
 	src: url(../fonts/champagnelimousines.ttf);
@@ -45,7 +49,7 @@ nav {
   background: #003333;
 	position: fixed;
 	top: 0;
-	z-index: 9999;
+	z-index: 8888;
   border-bottom: 8px solid #a7d5bf;
   padding: 0.5% 0;
 }
@@ -217,6 +221,21 @@ header img {
   margin-top: 15%;
 }
 
+.logoInterior {
+	width: 40%;
+  margin: auto;
+
+	padding: 0;
+}
+.logoInterior img {
+	z-index: 99999;
+	position: fixed;
+
+}
+.logoInterior img:hover {
+	opacity: 1;
+}
+
 /* call to action graphic */
 .create {
   padding: 0;
@@ -302,12 +321,13 @@ main {
 
 .interiorNavLower {
 	width: 100%;
-	height: auto;
+	height: 150px;
 	background: white;
 	position: fixed;
 	text-align: center;
-	margin-top: 92px;
-border-bottom: 8px solid #a7d5bf;
+
+	padding: 0;
+	border-bottom: 8px solid #a7d5bf;
 }
 
 .interiorNavLower ul {
@@ -327,11 +347,11 @@ border-bottom: 8px solid #a7d5bf;
 	padding-top: 10px;
 	padding-bottom: 13px;
 	text-align: center;
+		margin-top: 95px;
 }
 
 .interiorNavLower a:link {
 	color: #27aae1;
-
 }
 
 .interiorNavLower a:hover {
