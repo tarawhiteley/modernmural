@@ -232,7 +232,7 @@ header img {
 	position: fixed;
 
 }
-.logoInterior img:hover {
+.logoInterior a:hover {
 	opacity: 1;
 }
 
