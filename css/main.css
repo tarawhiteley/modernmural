@@ -172,7 +172,7 @@ a:visited {
     margin: 0.75% auto;
     text-align: center;
     display: inline-block;
-    width: 34vw; 
+    width: 34vw;
   }
 }
 
@@ -306,7 +306,7 @@ footer {
   border-top: 8px solid #a7d5bf;
 }
 
-footer h6 { 
+footer h6 {
   font-size: 1.1em;
   line-height: 0.8em;
   padding:0;
@@ -319,6 +319,89 @@ footer p {
 .cards_ftr {
   padding: 1%;
 }
+
+/* interior Navigation bar */
+
+.interiorNavLower {
+	width: 100%;
+	height: auto;
+	background: white;
+	position: fixed;
+	text-align: center;
+	margin-top: 100px;
+	margin-bottom: 150px;
+}
+
+.interiorNavLower ul {
+	list-style-type: none;
+	width: 100%;
+}
+
+.interiorNavLower li {
+	display: inline;
+	width: 25%;
+	float: left;
+	font-size: 1.3em;
+	font-family: "champagne";
+	text-transform: uppercase;
+	font-weight: bold;
+	padding-top: 10px;
+	text-align: center;
+}
+
+.interiorNavLower a:link {
+	color: #27aae1;
+
+}
+
+.interiorNavLower a:hover {
+	color: #003333;
+}
+
+.border {
+	border-top: 8px solid #a7d5bf;
+	clear: both;
+}
+
+/* contact page aside */
+.contactAside {
+	width: 20%;
+	color: #006e99;
+	height: auto;
+	padding: 100px;
+	text-align: right;
+	clear: both;
+}
+
+.contactAside h1 {
+	font-size: 3.4em;
+	margin-top: 150px;
+}
+
+.contactAside p {
+	color: #006e99;
+	font-size: 1.2em;
+}
+
+
+
+
+
+/*
+COLORS
+
+dark green: #003333
+mid green: #2bb672
+light green: #a7d5bf
+
+dark blue: #006e99
+mid blue: #27aae1
+light blue: #b3cdd7
+
+white: #ffffff;
+black: #000;
+
+*/
 
 /*.cards_ftr {
   display: flex;
