@@ -364,7 +364,7 @@ main {
 	clear: both;
 }
 
-/* contact page aside */
+/* contact page about page */
 .contactAside {
 	width: 20%;
 	color: #006e99;
@@ -375,14 +375,19 @@ main {
 	float: left;
 }
 
-.contactAside h1 {
+.contactAside h1, .aboutSection h1 {
 	font-size: 3.4em;
 	margin-top: 150px;
 }
 
-.contactAside p {
+.contactAside p, .aboutAside p, .aboutSection p {
 	color: #006e99;
 	font-size: 1.2em;
+}
+
+.aboutAside a, .aboutAside a:hover {
+	color: #006e99;
+	font-size: 1em;
 }
 
 .contactSection {
@@ -412,15 +417,40 @@ main {
 	font-size: 1.2em;
 }
 
-.contactSection a:link {
+.contactSection a:link, .aboutSection a:link {
 	color: #003333;
 	padding-top: 10px;
 	font-size: 1em;
 }
 
-.contactAside a:hover {
+.contactAside a:hover, .aboutSection a:hover {
 	color: #2bb672;
 }
+
+.aboutAside {
+	width: 35%;
+	height: auto;
+	padding: 245px 10px 10px 105px;
+	text-align: right;
+	clear: both;
+	float: left;
+}
+
+.aboutSection {
+	width: 35%;
+	height: auto;
+	padding: 130px 105px 30px 10px;
+	margin-top: 100px;
+	float: right;
+}
+
+.aboutImg {
+	height: 200px;
+	padding: 0 5px;
+	margin-top: 13px;
+}
+
+
 
 /* footer styling */
 
